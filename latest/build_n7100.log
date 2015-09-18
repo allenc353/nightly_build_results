@@ -1,0 +1,125 @@
+including device/xiaomi/cancro/vendorsetup.sh
+including device/oneplus/oneplus2/vendorsetup.sh
+including device/oneplus/bacon/vendorsetup.sh
+including device/google/sprout4/vendorsetup.sh
+including device/htc/flounder/vendorsetup.sh
+including device/samsung/hlte/vendorsetup.sh
+including device/samsung/manta/vendorsetup.sh
+including device/samsung/kltespr/vendorsetup.sh
+including device/samsung/picassowifi/vendorsetup.sh
+including device/samsung/i9500/vendorsetup.sh
+including device/asus/fugu/vendorsetup.sh
+including device/moto/shamu/vendorsetup.sh
+including device/sony/z3/vendorsetup.sh
+including device/sony/z3c/vendorsetup.sh
+including device/sony/scorpion/vendorsetup.sh
+including device/sony/scorpion_windy/vendorsetup.sh
+including device/lge/vs985/vendorsetup.sh
+including device/lge/d850/vendorsetup.sh
+including device/lge/d851/vendorsetup.sh
+including device/lge/f400/vendorsetup.sh
+including device/lge/d852/vendorsetup.sh
+including device/lge/vs980/vendorsetup.sh
+including device/lge/d800/vendorsetup.sh
+including device/lge/d855/vendorsetup.sh
+including device/lge/mako/vendorsetup.sh
+including vendor/exodus/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/exodus/bash_completion/git.bash
+including vendor/exodus/bash_completion/repo.bash
+checking for changelog
+Set cache size limit to 10.0 Gbytes
+including vendor/exodus/vendorsetup.sh
+Looking for dependencies
+Found : device/samsung/smdk4412-common
+Found : kernel/samsung/smdk4412
+Found : packages/apps/SamsungServiceMode
+Found : hardware/samsung
+Found : vendor/samsung
+
+** Prebuilt Chromium out-of-date/not found; Will build from source **
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20150918-NIGHTLY-n7100
+TARGET_PRODUCT=exodus_n7100
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a9
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LVY48F
+OUT_DIR=/android/exodus-5.1/out
+============================================
+
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  Team Exodus - Android 5.1.1
+    by PrimeDirective && Team Exodus 
+You're building on Linux
+
+We will use 6 threads for building ROM
+ccache is up to date
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20150918-NIGHTLY-n7100
+TARGET_PRODUCT=exodus_n7100
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a9
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LVY48F
+OUT_DIR=/android/exodus-5.1/out
+============================================
+Disabling ART_BUILD_TARGET_DEBUG
+Disabling ART_BUILD_HOST_DEBUG
+Enabling ART_USE_OPTIMIZING_COMPILER because of existence of art/USE_OPTIMIZING_COMPILER
+"ebtables is disabled on this build"
+find: `dummy': No such file or directory
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_errno.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_errno.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_interface.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_interface.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/SsbSipMfcApi.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/SsbSipMfcApi.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_errno.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_errno.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_interface.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/mfc_interface.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/SsbSipMfcApi.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/n7100/obj/include/libsecmm/SsbSipMfcApi.h'
+find: `vendor/cm/build/tools/droiddoc/templates-cmsdk': No such file or directory
+build/core/base_rules.mk:154: *** vendor/samsung/smdk4412-common/proprietary: MODULE.TARGET.SHARED_LIBRARIES.libTVOut already defined by hardware/samsung/exynos4/hal/libhdmi/libhdmiservice.  Stop.
+
+#### make failed to build some targets (59 seconds) ####
+
+
+real	0m59.201s
+user	0m44.356s
+sys	0m13.261s
+build/envsetup.sh: line 541: notify-send: command not found
+Build failed
+/android/exodus-5.1/out/target/product/n7100 removed
