@@ -1,0 +1,744 @@
+including device/xiaomi/cancro/vendorsetup.sh
+including device/oneplus/oneplus2/vendorsetup.sh
+including device/oneplus/bacon/vendorsetup.sh
+including device/google/sprout4/vendorsetup.sh
+including device/htc/flounder/vendorsetup.sh
+including device/samsung/serranoltexx/vendorsetup.sh
+including device/samsung/hlte/vendorsetup.sh
+including device/samsung/manta/vendorsetup.sh
+including device/samsung/kltespr/vendorsetup.sh
+including device/samsung/picassowifi/vendorsetup.sh
+including device/samsung/i9500/vendorsetup.sh
+including device/asus/fugu/vendorsetup.sh
+including device/moto/shamu/vendorsetup.sh
+including device/sony/z3/vendorsetup.sh
+including device/sony/z3c/vendorsetup.sh
+including device/sony/scorpion/vendorsetup.sh
+including device/sony/scorpion_windy/vendorsetup.sh
+including device/lge/vs985/vendorsetup.sh
+including device/lge/d850/vendorsetup.sh
+including device/lge/d851/vendorsetup.sh
+including device/lge/f400/vendorsetup.sh
+including device/lge/d852/vendorsetup.sh
+including device/lge/vs980/vendorsetup.sh
+including device/lge/d800/vendorsetup.sh
+including device/lge/d855/vendorsetup.sh
+including device/lge/mako/vendorsetup.sh
+including vendor/exodus/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/exodus/bash_completion/git.bash
+including vendor/exodus/bash_completion/repo.bash
+checking for changelog
+Set cache size limit to 10.0 Gbytes
+including vendor/exodus/vendorsetup.sh
+Looking for dependencies
+Found : device/samsung/d2-common
+Found : vendor/samsung
+
+** Prebuilt Chromium out-of-date/not found; Will build from source **
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20150924-NIGHTLY-d2spr
+TARGET_PRODUCT=exodus_d2spr
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LVY48F
+OUT_DIR=/android/exodus-5.1/out
+============================================
+
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  Team Exodus - Android 5.1.1
+    by PrimeDirective && Team Exodus 
+You're building on Linux
+
+We will use 6 threads for building ROM
+ccache is up to date
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20150924-NIGHTLY-d2spr
+TARGET_PRODUCT=exodus_d2spr
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LVY48F
+OUT_DIR=/android/exodus-5.1/out
+============================================
+Disabling ART_BUILD_TARGET_DEBUG
+Disabling ART_BUILD_HOST_DEBUG
+Enabling ART_USE_OPTIMIZING_COMPILER because of existence of art/USE_OPTIMIZING_COMPILER
+find: `dummy': No such file or directory
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit_priv.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit_priv.h'
+find: `vendor/cm/build/tools/droiddoc/templates-cmsdk': No such file or directory
+*** Overlay change detected, clean shared intermediate files...
+*** rm -rf /android/exodus-5.1/out/target/common/obj/APPS/Telecom_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Trebuchet_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Contacts_intermediates /android/exodus-5.1/out/target/common/obj/APPS/framework-res_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Settings_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Mms_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Bluetooth_intermediates /android/exodus-5.1/out/target/common/obj/APPS/Dialer_intermediates /android/exodus-5.1/out/target/common/obj/APPS/LatinIME_intermediates /android/exodus-5.1/out/target/common/obj/APPS/TeleService_intermediates /android/exodus-5.1/out/target/common/obj/APPS/SettingsProvider_intermediates /android/exodus-5.1/out/target/common/obj/APPS/SystemUI_intermediates
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libril.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libril.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/drm/libfwdlockengine.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/drm/libfwdlockengine.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/bin/rild'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/bin/rild'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libreference-ril.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libreference-ril.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libsecril-client.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libsecril-client.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/etc/gps.conf'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/etc/gps.conf'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libdivxdrmdecrypt.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/d2spr/system/lib/libdivxdrmdecrypt.so'
+No private recovery resources for TARGET_DEVICE d2spr
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//MsgTask.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//LocApiBase.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//LocAdapterBase.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//ContextBase.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//LocDualContext.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//LBSProxyBase.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//UlpProxyBase.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//gps_extended_c.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//gps_extended.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_core//loc_core_log.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//LocEngAdapter.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng_xtra.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng_ni.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng_agps.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng_msg.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libloc_eng//loc_eng_log.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//loc_log.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//loc_cfg.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//log_util.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//linked_list.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//msg_q.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//loc_target.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//loc_timer.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//platform_lib_includes.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//platform_lib_time.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//platform_lib_macros.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/gps.utils//loc_misc_utils.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/curlbuild.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/curl.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/curlrules.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/curlver.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/easy.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/mprintf.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/multi.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/stdcheaders.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libcurl/curl/typecheck-gcc.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libexpat/expat.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libexpat/expat_external.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libpng/png.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libpng/pngconf.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libpng/pngusr.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/selinux/selinux.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/selinux/label.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/selinux/context.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/selinux/avc.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/selinux/android.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libsonivox/eas.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libsonivox/eas_types.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libsonivox/eas_reverb.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libsonivox/jet.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libsonivox/ARM_synth_constants_gnu.inc
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libwpa_client/wpa_ctrl.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/libwpa_client/qca-vendor.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-audio/libalsa-intf/alsa_audio.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-audio/libalsa-intf/alsa_ucm.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-audio/libalsa-intf/msm8960_use_cases.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/gralloc_priv.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/copybit_priv.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/display_config.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/mdp_version.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/qdMetaData.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/IQService.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/qcom/display/IQClient.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Index.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/mm-video/DivxDrmDecrypt/DivXDrmDecrypt.h
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/sdk/softap/include/qsap_api.h
+mkdir -p /android/exodus-5.1/out/target/product/d2spr/obj/KERNEL_OBJ
+Header: /android/exodus-5.1/out/target/product/d2spr/obj/include/sdk/softap/include/qsap.h
+mkdir -p /android/exodus-5.1/out/target/product/d2spr/system/lib/modules
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/file_contexts.txt
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libc_intermediates/export_includes
+Export includes file: bionic/libm/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libm_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libstdc++_intermediates/export_includes
+Export includes file: system/core/fs_mgr/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes
+Export includes file: system/core/libcutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: system/core/liblog/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_intermediates/export_includes
+Export includes file: external/libselinux/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: system/core/libmincrypt/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/blkid/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes
+Export includes file: external/lz4/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/liblz4-static_intermediates/export_includes
+Export includes file: system/core/libsparse/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+Export includes file: bionic/libdl/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libdl_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_common_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_bionic_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_cxa_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_dns_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_malloc_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_bionic_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_cxa_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_dns_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_malloc_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libm_intermediates/import_includes
+Export includes file: bionic/libm/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libm_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libstdc++_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/import_includes
+Export includes file: system/core/libcutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: system/core/liblog/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libcutils_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/liblog_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libc_intermediates/import_includes
+Export includes file: system/core/libmincrypt/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminshacrypt_intermediates/export_includes
+Export includes file: external/pcre/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminshacrypt_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libpcre_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmincrypt_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/liblz4-static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsparse_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libz_intermediates/import_includes
+Export includes file: system/core/init/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/init_intermediates/export_includes
+Notice file: system/core/init/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/init.txt
+Notice file: system/core/logwrapper/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/liblogwrap.a.txt
+Notice file: system/core/libcutils/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libcutils.a.txt
+Notice file: system/core/liblog/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/liblog.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libc.a.txt
+Notice file: external/libselinux/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libselinux.a.txt
+Notice file: system/core/libmincrypt/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libmincrypt.a.txt
+Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libext4_utils_static.a.txt
+Notice file: external/zlib/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libz.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libc.so.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libc_common.a.txt
+Notice file: bionic/libdl/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libdl.so.txt
+Notice file: bionic/libm/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libm.so.txt
+Notice file: bionic/libm/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libm.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libstdc++.so.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/property_contexts.txt
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/adbd_intermediates/import_includes
+Export includes file: system/core/adb/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/adbd_intermediates/export_includes
+Notice file: system/core/adb/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/sbin/adbd.txt
+Export includes file: frameworks/native/services/batteryservice/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/export_includes
+Export includes file: frameworks/native/libs/binder/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libbinder_intermediates/export_includes
+Export includes file: bootable/recovery/minui/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminui_intermediates/export_includes
+Export includes file: external/libpng/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libpng_intermediates/export_includes
+Export includes file: system/core/libutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libstdc++_intermediates/export_includes
+Export includes file: system/core/libsuspend/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsuspend_intermediates/export_includes
+Export includes file: device/samsung/qcom-common/libhealthd/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libhealthd.qcom_intermediates/export_includes
+Export includes file: system/core/adf/libadf/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libadf_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libadf_intermediates/import_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libz_intermediates/export_includes
+Export includes file: system/core/libbacktrace/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libbacktrace_intermediates/export_includes
+Export includes file: external/stlport/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libstlport_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libstdc++_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsuspend_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libhealthd.qcom_intermediates/import_includes
+Export includes file: system/core/healthd/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/healthd_intermediates/export_includes
+Notice file: external/libpng/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libpng.a.txt
+Notice file: system/core/libutils/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libutils.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libstdc++.a.txt
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libf2fs_fmt_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libf2fs_fmt_intermediates/import_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/mkfs.f2fs_intermediates/export_includes
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/sbin/mkfs.f2fs.txt
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libf2fs_fmt.a.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/seapp_contexts.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/selinux_version.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/sepolicy.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//root/service_contexts.txt
+Target buildinfo: /android/exodus-5.1/out/target/product/d2spr/root/default.prop
+Export includes file: system/vold/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminivold_intermediates/export_includes
+Export includes file: external/stlport/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libstlport_static_intermediates/export_includes
+Export includes file: external/scrypt/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libscrypt_static_intermediates/export_includes
+build/tools/post_process_props.py /android/exodus-5.1/out/target/product/d2spr/root/default.prop
+Export includes file: system/core/libsysutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsysutils_intermediates/export_includes
+Export includes file: system/core/libdiskconfig/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libdiskconfig_intermediates/export_includes
+Export includes file: system/extras/f2fs_utils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libf2fs_sparseblock_intermediates/export_includes
+Export includes file: external/openssl/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/export_includes
+Export includes file: system/vold/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libvold_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminivold_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libstlport_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libscrypt_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsysutils_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libdiskconfig_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libf2fs_sparseblock_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/import_includes
+Export includes file: frameworks/native/libs/binder/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libbinder_intermediates/export_includes
+Export includes file: external/openssl/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libcrypto_intermediates/export_includes
+Export includes file: system/core/libdiskconfig/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libdiskconfig_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/blkid/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libext2_blkid_intermediates/export_includes
+Export includes file: system/extras/f2fs_utils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libf2fs_sparseblock_intermediates/export_includes
+Export includes file: hardware/libhardware/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libhardware_intermediates/export_includes
+Export includes file: hardware/libhardware_legacy/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libhardware_legacy_intermediates/export_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/liblogwrap_intermediates/export_includes
+Export includes file: external/libselinux/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: system/security/softkeymaster/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libsoftkeymaster_intermediates/export_includes
+Export includes file: system/core/libsysutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libsysutils_intermediates/export_includes
+Export includes file: system/core/libutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/SHARED_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: system/vold/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/minivold_intermediates/export_includes
+Notice file: external/stlport/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libstlport_static.a.txt
+Notice file: external/scrypt/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libscrypt_static.a.txt
+Notice file: system/core/libmincrypt/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libminshacrypt.a.txt
+Notice file: system/extras/f2fs_utils/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libf2fs_sparseblock.a.txt
+Notice file: external/openssl/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libcrypto_static.a.txt
+Export includes file: external/e2fsprogs/lib/ext2fs/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2fs_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_uuid_intermediates/export_includes
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_profile_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/quota/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_quota_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/et/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_com_err_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/e2p/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_e2p_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_uuid_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_quota_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_com_err_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libext2_e2p_intermediates/import_includes
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/recovery_e2fsck_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/recovery_mke2fs_intermediates/import_includes
+Export includes file: external/e2fsprogs/misc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/recovery_mke2fs_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/recovery_tune2fs_intermediates/import_includes
+Export includes file: external/e2fsprogs/misc/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/recovery_tune2fs_intermediates/export_includes
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fsck.exfat -> mount.exfat
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mkfs.exfat -> mount.exfat
+Export includes file: external/exfat/fuse/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_mount_intermediates/export_includes
+Export includes file: external/exfat/fsck/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_fsck_intermediates/export_includes
+Export includes file: external/exfat/mkfs/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_mkfs_intermediates/export_includes
+Export includes file: external/exfat/libexfat/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_intermediates/export_includes
+Export includes file: external/fuse/lib/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfuse_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_mount_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_fsck_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_mkfs_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libexfat_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfuse_intermediates/import_includes
+Export includes file: external/exfat/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/mount.exfat_static_intermediates/export_includes
+Export includes file: bootable/recovery/voldclient/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libvoldclient_intermediates/export_includes
+Export includes file: bootable/recovery/mtdutils/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmtdutils_intermediates/export_includes
+Export includes file: bootable/recovery/minadbd/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminadbd_intermediates/export_includes
+Export includes file: external/libtar/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libtar_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libvoldclient_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmtdutils_intermediates/import_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfusesideload_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libtar_intermediates/import_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/RECOVERY_EXECUTABLES/bu_recovery_intermediates/export_includes
+Notice file: bootable/recovery/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//recovery/root/sbin/bu.txt
+Notice file: external/libtar/NOTICE -- /android/exodus-5.1/out/target/product/d2spr/obj/NOTICE_FILES/src//system/lib/libtar.a.txt
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/busybox -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/getprop -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/make_ext4fs -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/minizip -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/reboot -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sdcard -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setup_adbd -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setprop -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/start -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/stop -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/vdc -> recovery
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/[ -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/[[ -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/ash -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/awk -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/basename -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/bbconfig -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/blkid -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/bzcat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/bzip2 -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/bunzip2 -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cal -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/catv -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chattr -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chcon -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chgrp -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chmod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chown -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/chroot -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cksum -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/clear -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cmp -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cp -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cpio -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/nanddump -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/nandwrite -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/cut -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/date -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/dc -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/dd -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/depmod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/devmem -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/df -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/diff -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/dirname -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/dmesg -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/dos2unix -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/du -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/echo -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/egrep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/env -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/expand -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/expr -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/false -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fdisk -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fgrep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/find -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fold -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/free -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/freeramdisk -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fstrim -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/fuser -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/getenforce -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/getopt -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/getsebool -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/grep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/groups -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/gunzip -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/gzip -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/head -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/hexdump -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/id -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/insmod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/install -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/kill -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/killall -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/killall5 -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/length -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/less -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/ln -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/losetup -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/ls -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lsattr -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lsmod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lspci -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lsusb -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lzcat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lzop -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/lzopcat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/makedevs -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/matchpathcon -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/md5sum -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mkdir -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mkfifo -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mkfs.ext2 -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mknod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mkswap -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mktemp -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/modinfo -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/modprobe -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/more -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mount -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mountpoint -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/mv -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/nice -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/nohup -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/od -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/patch -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/pgrep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/pidof -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/pkill -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/printenv -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/printf -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/ps -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/pstree -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/pwd -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/rdev -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/readlink -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/realpath -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/renice -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/reset -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/resize -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/restorecon -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/rev -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/rm -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/rmdir -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/rmmod -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/run-parts -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sed -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/selinuxenabled -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/seq -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sestatus -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setconsole -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setenforce -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setfiles -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setsebool -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setserial -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/setsid -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sh -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sha1sum -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sha256sum -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sha512sum -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sleep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sort -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/split -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/stat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/strings -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/stty -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/swapoff -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/swapon -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sync -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/sysctl -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/tac -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/tail -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/tar -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/tee -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/test -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/time -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/top -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/touch -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/tr -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/true -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/ttysize -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/umount -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/uname -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unexpand -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/uniq -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unix2dos -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unlzma -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unlzop -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unxz -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/unzip -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/uptime -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/usleep -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/uudecode -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/uuencode -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/watch -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/wc -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/which -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/whoami -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/xargs -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/xzcat -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/yes -> busybox
+Symlink: /android/exodus-5.1/out/target/product/d2spr/recovery/root/sbin/zcat -> busybox
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmake_ext4fs_static_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminizip_static_intermediates/export_includes
+Export includes file: external/fsck_msdos/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfsck_msdos_intermediates/export_includes
+Export includes file: external/pigz/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminipigz_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libreboot_static_intermediates/export_includes
+Export includes file: system/core/sdcard/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsdcard_intermediates/export_includes
+Export includes file: bootable/recovery/minzip/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminzip_intermediates/export_includes
+Export includes file: external/busybox/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libbusybox_intermediates/export_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libmake_ext4fs_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminizip_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfsck_msdos_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libminipigz_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libreboot_static_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libsdcard_intermediates/import_includes
+Export includes file: external/lzma/xz-embedded/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libxz_intermediates/export_includes
+Prepare config for libbusybox
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libbusybox_intermediates/import_includes
+Import includes file: /android/exodus-5.1/out/target/product/d2spr/obj/STATIC_LIBRARIES/libfusesideload_intermediates/import_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-5.1/out/target/product/d2spr/obj/EXECUTABLES/recovery_intermediates/export_includes
+Target buildinfo: /android/exodus-5.1/out/target/product/d2spr/system/build.prop
+make -C external/busybox prepare O=/android/exodus-5.1/out/target/product/d2spr/obj/busybox/minimal 
+make[1]: Entering directory `/android/exodus-5.1/external/busybox'
+make: *** No rule to make target `/android/exodus-5.1/out/host/linux-x86/bin/dex2oatd', needed by `/android/exodus-5.1/out/target/product/d2spr/dex_bootjars/system/framework/arm/boot.art'.  Stop.
+make: *** Waiting for unfinished jobs....
+Target buildinfo from: device/samsung/d2spr/system.prop
+  GEN     /android/exodus-5.1/out/target/product/d2spr/obj/busybox/minimal/Makefile
+  GEN     include/applets.h
+  GEN     include/usage.h
+  GEN     findutils/Kbuild
+  GEN     findutils/Config.in
+  GEN     miscutils/Kbuild
+  GEN     miscutils/Config.in
+  GEN     modutils/Kbuild
+  GEN     modutils/Config.in
+  GEN     util-linux/Kbuild
+  GEN     util-linux/Config.in
+  GEN     util-linux/volume_id/Kbuild
+  GEN     util-linux/volume_id/Config.in
+  GEN     console-tools/Kbuild
+  GEN     console-tools/Config.in
+  GEN     editors/Kbuild
+  GEN     editors/Config.in
+  GEN     scripts/Kbuild
+  GEN     printutils/Kbuild
+  GEN     printutils/Config.in
+  GEN     runit/Kbuild
+  GEN     runit/Config.in
+  GEN     selinux/Kbuild
+  GEN     selinux/Config.in
+  GEN     procps/Kbuild
+  GEN     procps/Config.in
+  GEN     shell/Kbuild
+  GEN     shell/Config.in
+  GEN     libpwdgrp/Kbuild
+  GEN     networking/Kbuild
+  GEN     networking/Config.in
+  GEN     networking/udhcp/Kbuild
+  GEN     networking/udhcp/Config.in
+  GEN     networking/libiproute/Kbuild
+  GEN     mailutils/Kbuild
+  GEN     mailutils/Config.in
+  GEN     applets/Kbuild
+  GEN     e2fsprogs/Kbuild
+  GEN     e2fsprogs/Config.in
+  GEN     e2fsprogs/old_e2fsprogs/Kbuild
+  GEN     e2fsprogs/old_e2fsprogs/Config.in
+  GEN     e2fsprogs/old_e2fsprogs/ext2fs/Kbuild
+  GEN     e2fsprogs/old_e2fsprogs/uuid/Kbuild
+  GEN     e2fsprogs/old_e2fsprogs/blkid/Kbuild
+  GEN     e2fsprogs/old_e2fsprogs/e2p/Kbuild
+  GEN     archival/Kbuild
+  GEN     archival/Config.in
+  GEN     archival/libarchive/Kbuild
+  GEN     libbb/Kbuild
+  GEN     libbb/Config.in
+  GEN     loginutils/Kbuild
+  GEN     loginutils/Config.in
+  GEN     init/Kbuild
+  GEN     init/Config.in
+  GEN     debianutils/Kbuild
+  GEN     debianutils/Config.in
+  GEN     sysklogd/Kbuild
+  GEN     sysklogd/Config.in
+  GEN     coreutils/Kbuild
+  GEN     coreutils/Config.in
+  GEN     coreutils/libcoreutils/Kbuild
+  Using /android/exodus-5.1/external/busybox as source for busybox
+  GEN     /android/exodus-5.1/out/target/product/d2spr/obj/busybox/minimal/Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/split-include
+  HOSTCC  scripts/basic/docproc
+/android/exodus-5.1/external/busybox/scripts/basic/split-include.c: In function ‘main’:
+/android/exodus-5.1/external/busybox/scripts/basic/split-include.c:134:11: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(old_line, buffer_size, fp_target);
+           ^
+  HOSTCC  scripts/kconfig/conf.o
+/android/exodus-5.1/external/busybox/scripts/kconfig/conf.c: In function ‘conf_askvalue’:
+/android/exodus-5.1/external/busybox/scripts/kconfig/conf.c:106:8: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(line, 128, stdin);
+        ^
+/android/exodus-5.1/external/busybox/scripts/kconfig/conf.c: In function ‘conf_choice’:
+/android/exodus-5.1/external/busybox/scripts/kconfig/conf.c:354:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(line, 128, stdin);
+         ^
+  HOSTCC  scripts/kconfig/kxgettext.o
+  HOSTCC  scripts/kconfig/mconf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/lex.zconf.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+/android/exodus-5.1/external/busybox/scripts/kconfig/mconf.c: In function ‘show_textbox’:
+/android/exodus-5.1/external/busybox/scripts/kconfig/mconf.c:847:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, text, strlen(text));
+       ^
+/android/exodus-5.1/external/busybox/scripts/kconfig/mconf.c: In function ‘exec_conf’:
+/android/exodus-5.1/external/busybox/scripts/kconfig/mconf.c:481:6: warning: ignoring return value of ‘pipe’, declared with attribute warn_unused_result [-Wunused-result]
+  pipe(pipefd);
+      ^
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf -s Config.in
+#
+# using defaults found in .config
+#
+  SPLIT   include/autoconf.h -> include/config/*
+  HOSTCC  applets/usage
+  HOSTCC  applets/applet_tables
+  GEN     include/bbconfigopts.h
+/android/exodus-5.1/external/busybox/applets/usage.c: In function ‘main’:
+/android/exodus-5.1/external/busybox/applets/usage.c:52:8: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+   write(STDOUT_FILENO, usage_array[i].usage, strlen(usage_array[i].usage) + 1);
+        ^
+/android/exodus-5.1/external/busybox/applets/applet_tables.c: In function ‘main’:
+/android/exodus-5.1/external/busybox/applets/applet_tables.c:144:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(line_old, sizeof(line_old), fp);
+         ^
+  GEN     include/usage_compressed.h
+  GEN     include/applet_tables.h
+  HOSTCC  applets/usage_pod
+  CC      applets/applets.o
+  LD      applets/built-in.o
+make[1]: Leaving directory `/android/exodus-5.1/external/busybox'
+
+#### make failed to build some targets (02:26 (mm:ss)) ####
+
+
+real	2m25.535s
+user	1m3.202s
+sys	0m26.715s
+build/envsetup.sh: line 541: notify-send: command not found
+Build failed
+/android/exodus-5.1/out/target/product/d2spr removed
