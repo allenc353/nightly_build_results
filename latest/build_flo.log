@@ -36,16 +36,15 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/htc/s4-common
-Found : hardware/qcom/fm
-Found : vendor/htc
+Found : kernel/google/msm
+Found : vendor/asus
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-ville
-TARGET_PRODUCT=exodus_ville
+CM_VERSION=5.1-20151019-NIGHTLY-flo
+TARGET_PRODUCT=exodus_flo
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -79,8 +78,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-ville
-TARGET_PRODUCT=exodus_ville
+CM_VERSION=5.1-20151019-NIGHTLY-flo
+TARGET_PRODUCT=exodus_flo
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -104,12 +103,12 @@ java version "1.8.0_60" Java(TM) SE Runtime Environment (build 1.8.0_60-b27) Jav
 ************************************************************
 build/core/main.mk:208: *** stop.  Stop.
 
-#### make failed to build some targets (4 seconds) ####
+#### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.736s
-user	0m2.835s
-sys	0m1.950s
+real	0m4.850s
+user	0m2.967s
+sys	0m1.918s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/ville removed
+/android/exodus-5.1/out/target/product/flo removed

@@ -36,14 +36,15 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/lge/g3-common
+Found : kernel/google/msm
+Found : vendor/lge
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-vs985
-TARGET_PRODUCT=exodus_vs985
+CM_VERSION=5.1-20151019-NIGHTLY-mako
+TARGET_PRODUCT=exodus_mako
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -77,8 +78,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-vs985
-TARGET_PRODUCT=exodus_vs985
+CM_VERSION=5.1-20151019-NIGHTLY-mako
+TARGET_PRODUCT=exodus_mako
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -102,12 +103,12 @@ java version "1.8.0_60" Java(TM) SE Runtime Environment (build 1.8.0_60-b27) Jav
 ************************************************************
 build/core/main.mk:208: *** stop.  Stop.
 
-#### make failed to build some targets (5 seconds) ####
+#### make failed to build some targets (6 seconds) ####
 
 
-real	0m4.928s
-user	0m3.096s
-sys	0m1.877s
+real	0m6.025s
+user	0m3.274s
+sys	0m2.074s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/vs985 removed
+/android/exodus-5.1/out/target/product/mako removed

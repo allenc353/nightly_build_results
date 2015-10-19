@@ -36,21 +36,24 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/oppo/find7-common
-Found : vendor/oppo
+Found : device/samsung/smdk4412-common
+Found : kernel/samsung/smdk4412
+Found : hardware/samsung_n7100
+Found : vendor/samsung
+Found : packages/apps/SamsungServiceMode
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-find7
-TARGET_PRODUCT=exodus_find7
+CM_VERSION=5.1-20151019-NIGHTLY-n7100
+TARGET_PRODUCT=exodus_n7100
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
+TARGET_CPU_VARIANT=cortex-a9
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -78,14 +81,14 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-find7
-TARGET_PRODUCT=exodus_find7
+CM_VERSION=5.1-20151019-NIGHTLY-n7100
+TARGET_PRODUCT=exodus_n7100
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
+TARGET_CPU_VARIANT=cortex-a9
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -106,9 +109,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.751s
-user	0m2.949s
-sys	0m1.844s
+real	0m4.910s
+user	0m2.869s
+sys	0m2.065s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/find7 removed
+/android/exodus-5.1/out/target/product/n7100 removed

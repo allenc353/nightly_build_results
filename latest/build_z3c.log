@@ -33,21 +33,18 @@ including sdk/bash_completion/adb.bash
 including vendor/exodus/bash_completion/git.bash
 including vendor/exodus/bash_completion/repo.bash
 checking for changelog
-creating changelog...
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : kernel/xiaomi/cancro
-Found : device/qcom/common
-Found : hardware/qcom/fm
-Found : vendor/xiaomi
+Found : device/sony/shinano-common
+Found : vendor/sony
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-cancro
-TARGET_PRODUCT=exodus_cancro
+CM_VERSION=5.1-20151019-NIGHTLY-z3c
+TARGET_PRODUCT=exodus_z3c
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -81,8 +78,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-cancro
-TARGET_PRODUCT=exodus_cancro
+CM_VERSION=5.1-20151019-NIGHTLY-z3c
+TARGET_PRODUCT=exodus_z3c
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -106,12 +103,12 @@ java version "1.8.0_60" Java(TM) SE Runtime Environment (build 1.8.0_60-b27) Jav
 ************************************************************
 build/core/main.mk:208: *** stop.  Stop.
 
-#### make failed to build some targets (31 seconds) ####
+#### make failed to build some targets (5 seconds) ####
 
 
-real	0m30.867s
-user	0m11.815s
-sys	0m7.156s
+real	0m4.930s
+user	0m2.910s
+sys	0m2.068s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/cancro removed
+/android/exodus-5.1/out/target/product/z3c removed

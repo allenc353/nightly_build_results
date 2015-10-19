@@ -36,24 +36,23 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/samsung/d2-common
-Found : vendor/samsung
+Found : kernel/htc/flounder
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-d2spr
-TARGET_PRODUCT=exodus_d2spr
+CM_VERSION=5.1-20151019-NIGHTLY-flounder
+TARGET_PRODUCT=exodus_flounder
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
-TARGET_ARCH=arm
-TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
-TARGET_2ND_ARCH=
-TARGET_2ND_ARCH_VARIANT=
-TARGET_2ND_CPU_VARIANT=
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=denver64
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=denver
 HOST_ARCH=x86_64
 HOST_OS=linux
 HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
@@ -78,17 +77,17 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-d2spr
-TARGET_PRODUCT=exodus_d2spr
+CM_VERSION=5.1-20151019-NIGHTLY-flounder
+TARGET_PRODUCT=exodus_flounder
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
-TARGET_ARCH=arm
-TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
-TARGET_2ND_ARCH=
-TARGET_2ND_ARCH_VARIANT=
-TARGET_2ND_CPU_VARIANT=
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=denver64
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=denver
 HOST_ARCH=x86_64
 HOST_OS=linux
 HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
@@ -106,9 +105,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.808s
-user	0m2.916s
-sys	0m1.918s
+real	0m4.938s
+user	0m3.020s
+sys	0m1.966s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/d2spr removed
+/android/exodus-5.1/out/target/product/flounder removed

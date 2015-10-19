@@ -36,21 +36,23 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/sony/shinano-common
-Found : vendor/sony
+Found : device/qcom/common
+Found : hardware/qcom/fm
+Found : kernel/motorola/otus
+Found : vendor/motorola
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-scorpion_windy
-TARGET_PRODUCT=exodus_scorpion_windy
+CM_VERSION=5.1-20151019-NIGHTLY-otus
+TARGET_PRODUCT=exodus_otus
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
+TARGET_CPU_VARIANT=cortex-a7
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -78,14 +80,14 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-scorpion_windy
-TARGET_PRODUCT=exodus_scorpion_windy
+CM_VERSION=5.1-20151019-NIGHTLY-otus
+TARGET_PRODUCT=exodus_otus
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=krait
+TARGET_CPU_VARIANT=cortex-a7
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -103,12 +105,12 @@ java version "1.8.0_60" Java(TM) SE Runtime Environment (build 1.8.0_60-b27) Jav
 ************************************************************
 build/core/main.mk:208: *** stop.  Stop.
 
-#### make failed to build some targets (5 seconds) ####
+#### make failed to build some targets (11 seconds) ####
 
 
-real	0m4.761s
-user	0m2.932s
-sys	0m1.875s
+real	0m10.714s
+user	0m4.211s
+sys	0m2.796s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/scorpion_windy removed
+/android/exodus-5.1/out/target/product/otus removed

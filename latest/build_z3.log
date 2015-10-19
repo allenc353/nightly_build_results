@@ -36,15 +36,15 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : vendor/lge
-Found : kernel/lge/v500
+Found : device/sony/shinano-common
+Found : vendor/sony
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-v500
-TARGET_PRODUCT=exodus_v500
+CM_VERSION=5.1-20151019-NIGHTLY-z3
+TARGET_PRODUCT=exodus_z3
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -78,8 +78,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-v500
-TARGET_PRODUCT=exodus_v500
+CM_VERSION=5.1-20151019-NIGHTLY-z3
+TARGET_PRODUCT=exodus_z3
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -106,9 +106,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.762s
-user	0m2.935s
-sys	0m1.870s
+real	0m5.017s
+user	0m3.072s
+sys	0m1.954s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/v500 removed
+/android/exodus-5.1/out/target/product/z3 removed

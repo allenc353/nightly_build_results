@@ -36,14 +36,15 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/lge/g3-common
+Found : device/htc/m7-common
+Found : vendor/htc
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-d851
-TARGET_PRODUCT=exodus_d851
+CM_VERSION=5.1-20151019-NIGHTLY-m7
+TARGET_PRODUCT=exodus_m7
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -77,8 +78,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-d851
-TARGET_PRODUCT=exodus_d851
+CM_VERSION=5.1-20151019-NIGHTLY-m7
+TARGET_PRODUCT=exodus_m7
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -105,9 +106,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.708s
-user	0m2.857s
-sys	0m1.886s
+real	0m5.273s
+user	0m3.002s
+sys	0m2.184s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/d851 removed
+/android/exodus-5.1/out/target/product/m7 removed

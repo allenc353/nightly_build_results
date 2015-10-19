@@ -36,23 +36,22 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/google/sprout-common
-Found : kernel/mediatek/sprout
-Found : packages/apps/FMRadio
-Found : vendor/google
+Found : kernel/lge/hammerhead
+Found : vendor/lge
+Found : device/qcom/common
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-sprout4
-TARGET_PRODUCT=exodus_sprout4
+CM_VERSION=5.1-20151019-NIGHTLY-hammerhead
+TARGET_PRODUCT=exodus_hammerhead
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=cortex-a7
+TARGET_CPU_VARIANT=krait
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -80,14 +79,14 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-sprout4
-TARGET_PRODUCT=exodus_sprout4
+CM_VERSION=5.1-20151019-NIGHTLY-hammerhead
+TARGET_PRODUCT=exodus_hammerhead
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=cortex-a7
+TARGET_CPU_VARIANT=krait
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -108,9 +107,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.917s
-user	0m3.108s
-sys	0m1.853s
+real	0m4.832s
+user	0m2.940s
+sys	0m1.938s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/sprout4 removed
+/android/exodus-5.1/out/target/product/hammerhead removed

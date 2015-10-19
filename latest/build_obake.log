@@ -36,15 +36,17 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/sony/scorpion_windy
-Found : vendor/sony
+Found : device/qcom/common
+Found : device/motorola/msm8960dt-common
+Found : kernel/motorola/ghost
+Found : vendor/motorola
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-scorpion
-TARGET_PRODUCT=exodus_scorpion
+CM_VERSION=5.1-20151019-NIGHTLY-obake
+TARGET_PRODUCT=exodus_obake
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -78,8 +80,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-scorpion
-TARGET_PRODUCT=exodus_scorpion
+CM_VERSION=5.1-20151019-NIGHTLY-obake
+TARGET_PRODUCT=exodus_obake
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -103,12 +105,12 @@ java version "1.8.0_60" Java(TM) SE Runtime Environment (build 1.8.0_60-b27) Jav
 ************************************************************
 build/core/main.mk:208: *** stop.  Stop.
 
-#### make failed to build some targets (4 seconds) ####
+#### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.789s
-user	0m2.978s
-sys	0m1.861s
+real	0m4.906s
+user	0m2.919s
+sys	0m2.059s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/scorpion removed
+/android/exodus-5.1/out/target/product/obake removed

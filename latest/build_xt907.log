@@ -36,15 +36,18 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : vendor/samsung
-Found : device/samsung/jf-common
+Found : device/motorola/msm8960-common
+Found : device/motorola/qcom-common
+Found : kernel/motorola/msm8960dt-common
+Found : device/qcom/common
+Found : vendor/motorola
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-jfltespr
-TARGET_PRODUCT=exodus_jfltespr
+CM_VERSION=5.1-20151019-NIGHTLY-xt907
+TARGET_PRODUCT=exodus_xt907
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -78,8 +81,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-jfltespr
-TARGET_PRODUCT=exodus_jfltespr
+CM_VERSION=5.1-20151019-NIGHTLY-xt907
+TARGET_PRODUCT=exodus_xt907
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -106,9 +109,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.933s
-user	0m3.057s
-sys	0m1.928s
+real	0m4.840s
+user	0m2.896s
+sys	0m1.988s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/jfltespr removed
+/android/exodus-5.1/out/target/product/xt907 removed

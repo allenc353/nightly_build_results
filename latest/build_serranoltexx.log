@@ -36,14 +36,20 @@ checking for changelog
 Set cache size limit to 10.0 Gbytes
 including vendor/exodus/vendorsetup.sh
 Looking for dependencies
-Found : device/lge/g3-common
+Found : kernel/samsung/msm8930-common
+Found : device/qcom/common
+Found : device/samsung/qcom-common
+Found : device/samsung/msm8930-common
+Found : device/samsung/serrano-common
+Found : hardware/qcom/fm
+Found : vendor/samsung
 
 ** Prebuilt Chromium is up-to-date; Will be used for build **
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-f400
-TARGET_PRODUCT=exodus_f400
+CM_VERSION=5.1-20151019-NIGHTLY-serranoltexx
+TARGET_PRODUCT=exodus_serranoltexx
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -77,8 +83,8 @@ ccache is up to date
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
-CM_VERSION=5.1-20151017-NIGHTLY-f400
-TARGET_PRODUCT=exodus_f400
+CM_VERSION=5.1-20151019-NIGHTLY-serranoltexx
+TARGET_PRODUCT=exodus_serranoltexx
 TARGET_BUILD_VARIANT=userdebug
 TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
@@ -105,9 +111,9 @@ build/core/main.mk:208: *** stop.  Stop.
 #### make failed to build some targets (5 seconds) ####
 
 
-real	0m4.734s
-user	0m2.926s
-sys	0m1.851s
+real	0m5.117s
+user	0m2.946s
+sys	0m2.060s
 build/envsetup.sh: line 541: notify-send: command not found
 Build failed
-/android/exodus-5.1/out/target/product/f400 removed
+/android/exodus-5.1/out/target/product/serranoltexx removed
