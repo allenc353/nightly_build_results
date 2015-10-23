@@ -1,0 +1,127 @@
+including device/xiaomi/cancro/vendorsetup.sh
+including device/motorola/condor/vendorsetup.sh
+including device/motorola/otus/vendorsetup.sh
+including device/oneplus/oneplus2/vendorsetup.sh
+including device/oneplus/bacon/vendorsetup.sh
+including device/google/sprout4/vendorsetup.sh
+including device/htc/flounder/vendorsetup.sh
+including device/samsung/serranoltexx/vendorsetup.sh
+including device/samsung/hlte/vendorsetup.sh
+including device/samsung/manta/vendorsetup.sh
+including device/samsung/kltespr/vendorsetup.sh
+including device/samsung/picassowifi/vendorsetup.sh
+including device/samsung/i9500/vendorsetup.sh
+including device/asus/fugu/vendorsetup.sh
+including device/moto/shamu/vendorsetup.sh
+including device/sony/z3/vendorsetup.sh
+including device/sony/z3c/vendorsetup.sh
+including device/sony/scorpion/vendorsetup.sh
+including device/sony/scorpion_windy/vendorsetup.sh
+including device/lge/vs985/vendorsetup.sh
+including device/lge/ls980/vendorsetup.sh
+including device/lge/d850/vendorsetup.sh
+including device/lge/d851/vendorsetup.sh
+including device/lge/f400/vendorsetup.sh
+including device/lge/d852/vendorsetup.sh
+including device/lge/vs980/vendorsetup.sh
+including device/lge/d800/vendorsetup.sh
+including device/lge/d855/vendorsetup.sh
+including device/lge/us990/vendorsetup.sh
+including device/lge/mako/vendorsetup.sh
+including vendor/exodus/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/exodus/bash_completion/git.bash
+including vendor/exodus/bash_completion/repo.bash
+checking for changelog
+Set cache size limit to 10.0 Gbytes
+including vendor/exodus/vendorsetup.sh
+Looking for dependencies
+Found : device/sony/shinano-common
+Found : vendor/sony
+
+** Prebuilt Chromium is up-to-date; Will be used for build **
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20151023-NIGHTLY-z3c
+TARGET_PRODUCT=exodus_z3c
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY48W
+OUT_DIR=/android/exodus-5.1/out
+============================================
+
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  Team Exodus - Android 5.1.1
+    by PrimeDirective && Team Exodus 
+You're building on Linux
+
+We will use 4 threads for building ROM
+ccache is up to date
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=5.1-20151023-NIGHTLY-z3c
+TARGET_PRODUCT=exodus_z3c
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY48W
+OUT_DIR=/android/exodus-5.1/out
+============================================
+Disabling ART_BUILD_TARGET_DEBUG
+Disabling ART_BUILD_HOST_DEBUG
+Enabling ART_USE_OPTIMIZING_COMPILER because of existence of art/USE_OPTIMIZING_COMPILER
+make: Entering directory `/android/exodus-5.1'
+bionic/libc/arch-arm/arm.mk:78: TARGET_CPU_VARIANT is >> , krait
+bionic/libc/arch-arm/arm.mk:86: TARGET compiling following list for libc , bionic/mmap.cpp  bionic/memrchr.c bionic/strchr.cpp bionic/strnlen.c bionic/strrchr.cpp  arch-arm/bionic/abort_arm.S arch-arm/bionic/atomics_arm.c arch-arm/bionic/__bionic_clone.S arch-arm/bionic/_exit_with_stack_teardown.S arch-arm/bionic/libgcc_compat.c arch-arm/bionic/__restore.S arch-arm/bionic/_setjmp.S arch-arm/bionic/setjmp.S arch-arm/bionic/sigsetjmp.S arch-arm/bionic/syscall.S
+find: `dummy': No such file or directory
+hardware/samsung/Android.mk:15: exodus_z3c
+hardware/samsung_n7100/Android.mk:15: exodus_z3c excluding this folder instead considering hardware/samsung_n7100
+find: `vendor/cm/build/tools/droiddoc/templates-cmsdk': No such file or directory
+*** Overlay change detected, clean shared intermediate files...
+*** rm -rf /android/exodus-5.1/out/target/common/obj/APPS/framework-res_intermediates
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/z3c/system/lib/libwebviewchromium_plat_support.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/z3c/system/lib/libwebviewchromium_plat_support.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-5.1/out/target/product/z3c/system/lib/libwebviewchromium_loader.so'
+build/core/base_rules.mk:550: warning: ignoring old commands for target `/android/exodus-5.1/out/target/product/z3c/system/lib/libwebviewchromium_loader.so'
+No private recovery resources for TARGET_DEVICE z3c
+make: *** No rule to make target `device/htc/m7-common/gps/CleanSpec.mk'.  Stop.
+make: Leaving directory `/android/exodus-5.1'
+
+#### make failed to build some targets (04:22 (mm:ss)) ####
+
+
+real	4m22.120s
+user	0m58.071s
+sys	0m18.524s
+build/envsetup.sh: line 541: notify-send: command not found
+Build failed
+/android/exodus-5.1/out/target/product/z3c removed
